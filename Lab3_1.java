@@ -14,6 +14,7 @@ public class Lab3_1 {
     public static void main(String[] args) {
         int a = 8;
         System.out.println("Hello World!");
+        c = a + b;
         Book _book = new OnlineBook("Hello", "NXB GD", "bbb", 2021, "Nam");
         _book.showInfo();
         
